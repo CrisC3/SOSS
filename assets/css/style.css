@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* COMMENT: adds color to the body if it does not have a style assign by other class or IDs. */ 
+body {
+    background-color: #d9dcd6;
+}
+
+/* COMMENT: adds padding of 20px, sets the family font, background color to blue, and text color to white. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* COMMENT: Updates the H1 tag under the header class, to display in line with the rest of the A tag links, with a font size. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* COMMENT: Updates the SPAN class SEO, to color the text "seo" to a different color. */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* COMMENT: updates the DIV under the header class, top padding, right margin, hyper links set to the right, with a font family and size.*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* COMMENT: updates the unordered list, DIV under the header class, to not display the list icon (Square, circle...). */
+.header div ul {
+    list-style-type: none;
+}
+
+/* COMMENT: updates the list items, under the unordered table, in the div under the header class. */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* COMMENT: sets all <a href links text color to white, and with no decoration link. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* COMMENT: sets all paragraph tags to a font size of 16 pixels. */
+p {
+    font-size: 16px;
+}
+
+/* COMMENT: sets in the image, image size and position, with a bottom margin, height of 800 pixels and width to expand based on screen. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* COMMENT: sets the SEO image to the left of the <div class="content"> with a margin on the right hand side. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* COMMENT: sets the reputation image to the right under the <div id="online-reputation-management" class="online-reputation-management">. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* COMMENT: update the DIV container, to hold SEO, Reputation, and Social Marketing, 
+with a width of 75% of the screen, display type, and with left margin. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* COMMENT: update the DIV contaier, to hold Lead Generation, Brand Awareness, and Cost Management,
+right margin, padding, clear to show text after the image, to float on the right side, width to be 20% and height 100% of the screen,
+background color blue, with font family to use. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* COMMENT: sets the container with a bottom margin and text color. */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* COMMENT: sets the container with a bottom margin and text color. */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* COMMENT: sets the container with a bottom margin and text color. */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* COMMENT: sets the container H3 tag, to have a bottom margin and align text to the center. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* COMMENT: sets the container H3 tag, to have a bottom margin and align text to the center. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* COMMENT: sets the container H3 tag, to have a bottom margin and align text to the center. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* COMMENT: sets the Lead Image with display, margin and max width. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* COMMENT: sets the Brand Awareness image with display, margin and max width. */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* COMMENT: sets the Cost Management image with display, margin and max width. */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* COMMENT: sets bottom margin, padding all around, height, font, background and text color. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* COMMENT: sets bottom margin, padding all around, height, font, background and text color. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* COMMENT: sets bottom margin, padding all around, height, font, background and text color. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* COMMENT: sets the SEO image only to a specific max height, regardless of device screen. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* COMMENT: sets the online reputation image only to a specific max height, regardless of device screen. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* COMMENT: sets the social media marketing image only to a specific max height, regardless of device screen. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* COMMENT: under the search-engine-optimization class, update the H2 tag with bottom margin and font size. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* COMMENT: under the online-reputation-management class, update the H2 tag with bottom margin and font size. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* COMMENT: under the social-media-marketing class, update the H2 tag with bottom margin and font size. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* COMMENT: update the footer of the page, with padding, clear to show text after the image, font family and text alignment. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* COMMENT: update the footer H2 font size value. */
+.footer h2 {
+    font-size: 20px;
+}
